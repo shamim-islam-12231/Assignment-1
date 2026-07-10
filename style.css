@@ -1,20 +1,23 @@
 *{
     padding: 0;
     margin:0;
+    box-sizing: border-box; */
+    font-family: "Inter", sans-serif;
 }
 
 nav{
     display:flex;
     justify-content: space-between;
     max-width: 1320px;
+    align-items: center;
     margin:auto;
-    padding:8px 0;
+    padding:10px 15px;
 }
 ul{
     display:flex;
     justify-content: space-between;
     list-style: none;
-    gap:10px;
+    gap:24px;
     align-items: center;
 
     /* text-align: center; */
@@ -24,12 +27,57 @@ nav ul a{
     color: #575757;
 }
 .button{
-    /* width: 180px;
-    height:50px;  */
-    border-radius: 20px;
+     width: 180px;
+    height:50px; 
+    border-radius: 10px;
     background-color: #1D4ED8;
     color:white;
     border:none;
     padding: 10px 24px;
+    cursor: pointer;
 
 }
+header{
+    background-image: linear-gradient(to bottom right,rgba(0,0,0,0.85)0%,rgba(0,0,0,0)30% ),
+                      linear-gradient(to top,rgba(0,0,0,0.95)0%,rgba(0,0,0,0.5)25%),url('./images/banner.jpg');
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content{
+    text-align: center;
+    color: #ffffff;
+    display: grid;
+    gap:24px;
+    justify-items: center;
+    /* gap:24px; */
+    height:100%;
+    padding-top: 18%;
+    
+
+     
+} 
+.header-content h1{
+   font-weight: 800;
+    font-size: 56px; 
+    /* margin-top:-28%;   */
+}
+.header-content .button{
+    /* margin-left: 30%; */
+    justify-self: center;
+    margin-top: 200px;
+    /* margin-top: 10%;
+   */
+}
+.header-content p{
+     margin-top: -15%; 
+    max-width: 520px;
+    font-size: 18px;
+}
+
+ 
