@@ -24,8 +24,7 @@
 .speakers-card{
     background-color: #ffffff;
     border:1px solid #E5E7EB;
-    border-radius: 12px;
-    overflow: hidden;
+    border-radius: 12px; 
     display: flex;
     flex-direction: column;
 }
@@ -54,17 +53,6 @@
     font-size: 14px;
     color:#000102;
 }
-
-
-/* section{
-    padding:80px 7.6%; 
-   
-} */
-/* .meet{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
- } */
-
 nav{
     display:flex;
     justify-content: space-between;
@@ -73,14 +61,12 @@ nav{
     margin:auto;
     padding:10px 15px;
 }
-ul{
+nav ul{
     display:flex;
     justify-content: space-between;
     list-style: none;
     gap:24px;
     align-items: center;
-
-    /* text-align: center; */
 }
 nav ul a{
     text-decoration: none;
@@ -115,30 +101,135 @@ header{
     display: grid;
     gap:24px;
     justify-items: center;
-    /* gap:24px; */
     height:100%;
-    padding-top: 18%;
-    
-
-     
+    padding-top: 18%;   
 } 
 .header-content h1{
    font-weight: 700;
     font-size: 56px; 
-    /* margin-top:-28%;   */
 }
 .header-content .button{
-    /* margin-left: 30%; */
     justify-self: center;
     margin-top: 200px;
     width:200px;
-    /* margin-top: 10%;
-   */
 }
 .header-content p{
      margin-top: -12%; 
     max-width: 600px;
     font-size: 18px;
 }
+.secure{
+    max-width: 1320px;
+    margin:0 auto;
+    padding:60px 20px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.heading h2{
+      font-size: 48px;
+      font-weight: bold;
+      margin-top: -50px;
+}
+.heading p{
+    line-height: 32px;
+}
+.my-spot{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:25px;
+}
+.standard, .team{
+    background-color: #ffffff;
+    border: 1px  solid #e5e7eb;
+    border-radius: 12px;
+    padding:30px;
+}
+.pro{
+    background-color: #0b1523;
+    color:#ffffff;
+    border-radius: 12px;
+    padding: 30px;
+}
+h4{
+    font-size: 14px;
+    color:#888888;
+}
+.blue-text{
+    color:#2563EB;
+}
+.my-spot .price{
+    font-size: 45px;
+    font-weight: bold;
+    color:#000102;
+    margin:5px 0;
+}
+.pro .price{
+    color:#ffffff;
+}
+h5{
+    font-size: 14px;
+     color: #888888;
+    margin-bottom: 15px;
+}
+hr{
+    border:0;
+    border-top:1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+.pro hr{
+    border-top:1px solid #1e293b;
+}
+.my-spot ul{
+    list-style:none;
+    margin-bottom:30px;
+}
+.my-spot li{
+    font-size: 15px;
+     margin-bottom: 12px;
+     color: #333333;
+}
+.pro li{
+    color: #cbd5e1;
+}
+.dot{
+   color:#2563EB;
+   font-size:20px;
+   margin-right:5px;
+}
+.btn{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btn-get{
+    background: transparent;
+    border:1px solid #2563EB;
+    color:#2563EB;
+}
+.btn-pro{
+    background:#2563EB;
+    border:none;
+    color:#ffffff;
+}
+.btn-team{
+    background: transparent;
+     border: 1px solid #000102;
+     color: #000102;
+}
+
+
+.my-spot ul{
+    color:#333333;
+}
+.standard button{
+    padding: 10px;
+    margin-top: 15px;
+} 
+
 
  
