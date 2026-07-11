@@ -291,30 +291,30 @@ hr{
 
 /* Register Squad Button Styling */
 .register-squad-btn {
-    background-color: #ffffff;
-    border: 1.5px solid #0f172a;
-    color: #0f172a;
-    padding: 16px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 1.3;
-    display: inline-flex;
-    align-items: center;
-    gap: 20px;
-    transition: all 0.2s ease;
-    text-align: left;
-    white-space: nowrap;
+   
+    border: 1px solid;
+        color: #ffffff;
+        background-color: #2563EB;
+        padding: 15px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 13px;
+        display: inline-flex;
+        align-items: center;
+        gap: 20px;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        white-space: nowrap;
 }
 
 .register-squad-btn:hover {
-    background-color: #f8fafc;
-    transform: translateY(-2px);
+    background-color: #0f172a;
+    color: #ffffff;
 }
 
 .arrow-icon {
-    font-size: 22px;
+    font-size: 14px;
 }
 
 /* Master Layout Fix: Splits Left Area and Right Area Cleanly */
@@ -336,7 +336,7 @@ hr{
 
 /* Panels Base Styling */
 .panel-light {
-    background-color: #f8fafc;
+    background-color: #ffffff;
     border: 1px solid #e2e8f0;
     border-radius: 16px;
     padding: 32px;
@@ -608,43 +608,6 @@ hr{
 .diagonal-arrow {
     font-size: 11px;
     margin-left: 2px;
-}
-
-/* Adaptive Breakpoint Configuration */
-@media(max-width: 992px) {
-    .hackathon-main-layout {
-        flex-direction: column;
-    }
-
-    .left-content-area,
-    .leaderboard-panel {
-        width: 100% !important;
-    }
-
-    .tracks-grid-row {
-        flex-direction: column;
-    }
-}
-
-@media(max-width: 600px) {
-    .stats-panel {
-        flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
-    }
-
-    .divider-v {
-        display: none;
-    }
-
-    .hackathon-header-area {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .hackathon-title-block {
-        max-width: 100%;
-    }
 }
 .site {
     background-color: #0b0c10;
